@@ -2,8 +2,15 @@
 /* CSS Document */
 /* purple: #D5B6F0
    green: #9AD1CC
-
+   grey: dimgrey
 */
+body {
+	font-family: 'Shippori Mincho', serif;
+}
+h1 h2 h3{
+	text-transform: uppercase;
+	color: dimgrey;
+}
 .logo {
 	background : #D5B6F0;	
 }
@@ -20,5 +27,18 @@ nav{
 	color: black;
 }
 .navbar-brand {
-	color: #9AD1CC;
+	color: #D5B6F0;
+}
+.navbar-toggler-icon{
+	background-image: url("../images/menu-icon.png");
+}
+.products{
+	text-align: center;
+}
+.products{
+	margin: 20px;
+	text-align: center;
+}
+.content-shop{
+	background: #A28DC3;
 }
