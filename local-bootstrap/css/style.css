@@ -1,8 +1,24 @@
 @charset "UTF-8";
 /* CSS Document */
-/* purple: #D5B6F0 
+/* purple: #D5B6F0
+   green: #9AD1CC
 
 */
-.logo{
-	background: #D5B6F0;
+.logo {
+	background : #D5B6F0;	
+}
+.logo img {
+	width: 150px;
+}
+nav{
+	background: #9AD1CC;
+}
+.nav-link {
+	color: #D5B6F0;
+}
+.nav-link:hoover {
+	color: black;
+}
+.navbar-brand {
+	color: #9AD1CC;
 }
