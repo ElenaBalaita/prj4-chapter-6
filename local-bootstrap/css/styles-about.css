@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+/* purple: #D5B6F0
+   green: #9AD1CC
+   grey: dimgrey
+*/
+body {
+	font-family: 'Shippori Mincho', serif;
+}
+h1 h2 h3{
+	text-transform: uppercase;
+	color: dimgrey;
+	}
+.h1{
+	font-size: 15px;
+	text-align: center;
+}
+.logo {
+	background : #D5B6F0;	
+}
+.logo img {
+	width: 150px;
+	align-content: center;
+}
+nav{
+	background: #9AD1CC;
+}
+.nav-link {
+	color: #D5B6F0;
+}
+.nav-link:hoover {
+	color: black;
+}
+.navbar-brand {
+	color: #D5B6F0;
+}
+.navbar-toggler-icon{
+	background-image: url("../images/menu-icon.png");
+}
+.card-body{
+	background-color: #9AD1CC;
+}
+.card-deck{
+	display: flex;
+}
+.card{
+	width: 350px;
+}
