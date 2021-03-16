@@ -41,4 +41,12 @@ nav{
 }
 .content-shop{
 	background: #A28DC3;
+	align-content: center;
+}
+.content-shop img{
+	max-width: 500px;
+}
+.content-shop p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
 }
