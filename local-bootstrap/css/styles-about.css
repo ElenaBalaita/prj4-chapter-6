@@ -10,17 +10,12 @@ body {
 h1 h2 h3{
 	text-transform: uppercase;
 	color: dimgrey;
-	}
-.h1{
-	font-size: 15px;
-	text-align: center;
 }
 .logo {
 	background : #D5B6F0;	
 }
 .logo img {
 	width: 150px;
-	align-content: center;
 }
 nav{
 	background: #9AD1CC;
@@ -38,11 +33,12 @@ nav{
 	background-image: url("../images/menu-icon.png");
 }
 .card-body{
-	background-color: #9AD1CC;
+	background: #9AD1CC;
+	align-content: center;
 }
 .card-deck{
 	display: flex;
 }
 .card{
-	width: 350px;
+	width: 500px;
 }
